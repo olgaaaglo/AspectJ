@@ -9,7 +9,7 @@
 
 
     <bean id="exampleBean" class="com.example.demo.Example">   </bean>
-    <bean id="aspectBean" class="com.example.demo.AspectLogger"></bean>
+    <bean id="aspectBean" class="com.example.demo.ExampleAspect"></bean>
 
     <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean>
 
